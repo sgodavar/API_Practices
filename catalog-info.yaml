@@ -1,14 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: todo-react
+  name: VM
   annotations:
     cost-insights.microsoft.com/resource-group: "rg-my-service"
-  title: To-do in React
-  description: A web-based To-do application, written in React. For demonstration purposes only!
+  title: VM Instances
+  description: Web VM Instances for testing
   tags:
-    - react
-    - website
+    - resource
 spec:
   type: service
   lifecycle: experimental
